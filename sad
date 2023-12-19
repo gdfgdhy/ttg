@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+body {
+background-color: #fff;
+color: #333;
+font: 1em / 1.4 Helvetica Neue, Helvetica, Arial, sans-serif;
+padding: 1em;
+margin: 0;
+}
+h1 {
+font-size: 2rem;
+margin: 0;
+color: purple;
+}
+p {
+color: gray;
+margin: 0.5em 0;
+}
+* {
+box-sizing: border-box;
+}
+.tooltip {
+position: relative;
+display: block;
+cursor: pointer;
+}
+.tooltip .tooltiptext {
+visibility: hidden;
+width: 120px;
+background-color: #000;
+color: #fff;
+text-align: left;
+border-radius: 20px;
+padding: 5px;
+position: absolute;
+z-index: 1;
+opacity: 0;
+transition: opacity 0.3s;
+}
+.tooltip:hover .tooltiptext {
+visibility: visible;
+opacity: 1;
+}
+</style>
+</head>
+<body>
+<h1>Information on Whales</h1>
+<p>For more information on our conservation activities and which Whales we study,
+see our
+<div class="tooltip"><a href=" file:///D:/Test_your_skills__Links/Test_your_skills__Links/Task1/whales.html"
+target="_blank">Whales page</a><span class="tooltiptext">Данная страница содержит информацию о голубых китах
+и кашалотах</span>.</p>
+</div>
+<p>If you want to ask our team more questions, feel free to <a href="whales@example.com">email us</a>.</p>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Ссылки на ресурсы</title>
+<style>
+body {
+background-color: #fff;
+color: #333;
+font: 1em / 1.4 Helvetica Neue, Helvetica, Arial, sans-serif;
+padding: 1em;
+margin: 0;
+min-width: 100%;
+}
+h1 {
+font-size: 2rem;
+margin: 0;
+color: purple;
+}
+li {
+color: gray;
+margin: 0.5em 0;
+}
+div {
+height: 600px;
+}
+</style>
+</head>
+<body>
+<h1>List path tests</h1>
+<ul>
+<li><a href="tasks/blue/blue-whale.jpg" target="_blank">Link me to the blue whale image</a></li>
+<li><a href="tasks/narwhal/narwhal.jpg" target="_blank">Link me to the narwhal image</a></li>
+<li><a href="https://www.google.co.uk" target="_blank">Link me to Google image search</a></li>
+<li><a href="#bottom">Link me to the paragraph at the bottom of the page</a></li>
+</ul>
+<div></div>
+<p id="bottom">The bottom of the page!</p>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Task 3</title>
+<style>
+body {
+background-color: #fff;
+color: #333;
+font: 1em / 1.4 Helvetica Neue, Helvetica, Arial, sans-serif;
+padding: 1em;
+margin: 0;
+}
+p {
+color: gray;
+margin: 0.5em 0;
+}
+* {
+box-sizing: border-box;
+}
+</style>
+</head>
+<body>
+<p>We do lots of work with Narwhals. To find out more about this work, <a href="tasks/Task3/narwhals.html"
+target="_blank">click
+here</a>.</p>
+<p>You can email our support team if you have any more questions — <a href="mailto:whales@example.com">click
+here</a> to do so.</p>
+<p>You can also <a href="tasks/Task3/factfile.pdf" target="_blank">click here</a> to download our factfile, which
+contains lots
+more information, including an FAQ.</p>
+</body>
+</html>
